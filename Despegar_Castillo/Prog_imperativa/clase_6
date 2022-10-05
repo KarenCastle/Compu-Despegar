@@ -1,0 +1,49 @@
+curso_ejemplo = [
+  {
+    'legajo': '123446',
+    'nombre': 'María',
+    'apellido': '(...)',
+    'notas' : [10, 2, 3],
+    'zona': 'Quilmes'
+  },
+  {
+    'legajo': '123450',
+    'nombre': 'Carlos',
+    'apellido': '(...)',
+    'notas' : [5, 8, 8],
+    'zona': 'CABA'
+  },
+  {
+    'legajo': '123430',
+    'nombre': 'Liz',
+    'apellido': '(...)',
+    'notas' : [4, 8, 2],
+    'zona': 'CABA'
+  },
+  {
+    'legajo': '123453',
+    'nombre': 'Hector',
+    'apellido': '(...)',
+    'notas' : [9, 9, 1],
+    'zona': 'Temperley'
+  },
+  {
+    'legajo': '123110',
+    'nombre': 'Ana',
+    'apellido': '(...)',
+    'notas' : [6, 7, 8],
+    'zona': 'Quilmes'
+  },
+  {
+    'legajo': '123371',
+    'nombre': 'Ivana',
+    'apellido': '(...)',
+    'notas' : [7, 7, 9],
+    'zona': 'Avellaneda'
+  }
+]
+
+
+def nota_final(un_estudiante):
+    
+    return (un_estudiante[0] + un_estudiante [1] + un_estudiante[2])/len(un_estudiante)
